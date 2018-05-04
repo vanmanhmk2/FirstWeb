@@ -1,0 +1,78 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<meta name="description" content="Magazine Game">
+<meta name="keywords" content="Blog, Game, Fortnite, CSGO">
+<meta name="author" content="Nguyen Van Manh">
+<title>Nguyễn Văn Mạnh</title>
+<link rel="stylesheet" type="text/css" href="css1.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link rel="icon" href="img/logoweb.ico" type="image/x-icon">
+</head>
+<body class="bodycenter">
+<div><img src="img/banner1.jpg" class="banner1"></div>
+<div class="menu1">
+<a href="index.html">Intro</a>
+<a href="blog.html">Blog</a>
+<div class="menudrop">
+<button class="dropbtn">More
+<i class="fa fa-caret-down"></i>
+</button>
+<div class="menudrop-content">
+<a href="thankfor.html">Thank For</a>
+<a href="aboutme.html">About Me</a>
+</div></div></div>
+<!--End-->
+<a onclick="topFunction()" id="button-top" title="Lên Đầu Trang"><img src="img/top.png"></a> 
+<div class="box-slideshow">
+<div class="slide-me fadeslide">
+<img src="img/poemimg1.jpg" style="width:100%">
+<p class="quotes">"thiết kế web đang trở nên phổ biến trong xã hội"</p>
+</div>
+<div class="slide-me fadeslide">
+<img src="img/poemimg2.jpg" style="width:100%">
+<p class="quotes">"học thiết kế web từ bây giờ sẽ giúp bạn hiểu hơn về internet"</p>
+</div>
+<div class="slide-me fadeslide">
+<img src="img/poemimg3.jpg" style="width:100%">
+<p class="quotes">"bạn thấy đấy mọi thứ đều được tối ưu hóa cho web"</p>
+</div>
+</div>
+<!--SLide END-->
+<div class="head-text">
+<h2>The Player 5</h2>
+</div>
+<!--blog-->
+<h1 class="upper tcenter">Chào mừng bạn đến với trang web của tôi</h1>
+<p>Đây là trang web mà tôi sẽ tổng hợp các bài viết về game từ nhiều nguồn trên thế giới, và sẽ dịch chúng từ tiếng Anh sang tiếng Việt <i>(Đợi sau khi tôi biến trang này thành trang web động đã)</i> hiện tại nó là trang blog cá nhân của riêng tôi, và tôi sẽ có một số bài viết cố định cho cái blog này.</p>
+<h1 class="upper tcenter">tiêu chí trang này đặt ra là gì ?</h1>
+<p>Tiêu chí trang web mà tôi tự đặt ra cho chính mình đó là <b>Nhanh, Nhẹ và Tập Trung</b>. Hiện tại tôi đang cố gắng làm cho trang web này đạt được những điều trên bằng việc loại bỏ một số chi tiết mà riêng tôi cho là không cần thiết và tôi nghĩ tôi sẽ áp dụng nó cho những dự án tiếp theo của mình.</p>
+<h1 class="upper tcenter">vậy tôi có thể truy cập các bài viết của blog này ở đâu</h1>
+<p>Bạn có thể truy cập nhanh các liên kết trang web ngay tại đây</p>
+<ul type="circle">
+<li><a href="index.html" target="_blank">Intro</a>: Đây là trang chủ mà bạn đang thấy đấy.</li>
+<li><a href="blog.html" target="_blank">Blog</a>: Đây là trang để chứa các bài viết của tôi</li>
+<li><a href="thankfor.html" target="_blank">Thank For</a>: Đây là trang để cảm ơn các website đã giúp tôi trong việc thiết kế trang web và nguồn tài liệu để làm web</li>
+<li><a href="aboutme.html" target="_blank">About Me</a>: Đây là trang dùng để giới thiệu về tôi</li>
+</ul>
+<p>Hoặc bạn có thể truy cập các liên kết khác trên thanh <b><i>Menu Bar</i></b> của tôi ở trên đầu trang, nếu muốn tiện lợi hơn bạn có thể nhấp vào hình tròn có mũi tên đi lên bên góc phải ở dưới màn hình để lên đầu trang nhanh hơn.</p>
+<h1 class="upper tcenter">-kết-</h1>
+<p class="upper tcenter">Cảm ơn bạn đã nghé thăm</p>
+<form action="/action_page.php" target="_blank"><div class="box-form">
+<h2 class="upper tcenter">Đăng ký để nhận tin tức từ blog của tôi</h2></div>
+<div class="box-form" style="background-color:#ecf0f1">
+<input type="text" placeholder="Tên" name="name" required>
+<input type="text" placeholder="Địa chỉ Email" name="mail" required><label>
+<input type="checkbox" checked="checked" name="subscribe">Nhận tin tức hằng ngày</label>
+</div><div class="box-form">
+<input type="submit" value="Đăng Ký"></div>
+</form>
+<!--Script-->
+<script>
+var slideIndex=0;showSlides();function showSlides(){var i;var a=document.getElementsByClassName("slide-me");for(i=0;i<a.length;i++){a[i].style.display="none"}slideIndex++;if(slideIndex>a.length){slideIndex=1}a[slideIndex-1].style.display="block";setTimeout(showSlides,4000)}
+<!---->
+window.onscroll=function(){scrollFunction()};function scrollFunction(){if(document.body.scrollTop>20||document.documentElement.scrollTop>20){document.getElementById("button-top").style.display="block"}else{document.getElementById("button-top").style.display="none"}}function topFunction(){document.body.scrollTop=0;document.documentElement.scrollTop=0}
+</script>
+</body>
+</html>
